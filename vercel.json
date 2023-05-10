@@ -2,9 +2,9 @@
 	"version": 2,
 	"name": "pokemon-showdown",
 	"builds": [
-	   { "src": "sim/index.ts", "use": "@vercel/node" }
+	   { "src": "./pokemon-showdown", "use": "@vercel/node" }
 	],
 	"routes": [
-	   { "src": "/(.*)", "dest": "sim/index.ts" }
+	   { "src": "/(.*)", "dest": "./pokemon-showdown" }
 	]
  }
